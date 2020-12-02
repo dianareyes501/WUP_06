@@ -34,18 +34,38 @@ I will be using a Bar Plot Graph, Numerical Cross-Tab Graph as well as a Fisher'
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
-
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+
+```{r}
+barchartGC(~BIGBANG + POSTLIFE,data=GSS)
+barchartGC(~BIGBANG + POSTLIFE,data=GSS, type="percent")
+```
+The Bar Plot Graph indicates that a high percent and frequency of people believe in the BIGBANG THEORY as well as the POSTLIFE. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~BIGBANG + POSTLIFE, data=GSS)
+rowPerc(table1)
+colPerc(table1)
+```
+
+In the Numerical Cross-tab Graph it indicates that there were 100 candidates that were surveyed in which the first graph states that 91.67% believe in the POSTLIFE and leaves only the reminder 8.33% whom don't believe. As where 81.71% also believe in the BIGBANG theory with 18.29% whom don't believe. Graph 2 shows a significant difference in which 56.77% believe in the POSTLIFE with 34.78% not believing and 43.23% whom believe in the BIGBANG theory abd 65.22% who don't believe. Overall roughly around the same percentage in both graphs reflect that there is a connection. 
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+The Fisher's Exact Test showed a p-value= 0.07143 in which reflects that there may be a connection to both theory and supports the Alternative Hypothesis. 
 
 
 # Discussion and Conclusion
