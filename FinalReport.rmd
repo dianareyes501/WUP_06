@@ -70,4 +70,6 @@ The Fisher's Exact Test showed a p-value= 0.07143 in which reflects that there m
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion we can reject the Null Hypothesis since there seems to be a connection between people who believe in the BIGBANG THeory and the POSTLIFE!
