@@ -42,7 +42,7 @@ I will be using a Bar Plot Graph, Numerical Cross-Tab Graph as well as a Fisher'
 barchartGC(~BIGBANG + POSTLIFE,data=GSS)
 barchartGC(~BIGBANG + POSTLIFE,data=GSS, type="percent")
 ```
-The Bar Plot Graph indicates that a high percent and frequency of people believe in the BIGBANG THEORY as well as the POSTLIFE. 
+The Bar Plot Graph indicates that 91% of those who don't believe in the BIG Bang Theory beive in the POSTLIFE. The 9% whom believe in the POSTLIFE dont believe in teh BIG BANK THEORY.
 
 ### Numerical Descriptive Results
 
@@ -54,7 +54,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-In the Numerical Cross-tab Graph it indicates that there were 100 candidates that were surveyed in which the first graph states that 91.67% believe in the POSTLIFE and leaves only the reminder 8.33% whom don't believe. As where 81.71% also believe in the BIGBANG theory with 18.29% whom don't believe. Graph 2 shows a significant difference in which 56.77% believe in the POSTLIFE with 34.78% not believing and 43.23% whom believe in the BIGBANG theory abd 65.22% who don't believe. Overall roughly around the same percentage in both graphs reflect that there is a connection. 
+In the Numerical Cross-tab Graph it indicates that there were 100 candidates that were surveyed in which the first graph states that 91.67% believe in the POSTLIFE and leaves only the reminder 8.33% whom don't believe. As where 81.71% also believe in the BIGBANG theory with 18.29% whom don't believe. Graph 2 shows a significant difference in which 56.77% believe in the POSTLIFE with 34.78% not believing and 43.23% whom believe in the BIGBANG theory abd 65.22% who don't believe. Overall roughly around the same percentage in both graphs reflect that there isn't a connection. 
 
 ## Inferential Results
 
@@ -72,4 +72,4 @@ The Fisher's Exact Test showed a p-value= 0.07143 in which reflects that there m
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-In conclusion we can reject the Null Hypothesis since there seems to be a connection between people who believe in the BIGBANG THeory and the POSTLIFE!
+In conclusion we can reject the Null Hypothesis since there seems to not be sufficient proof of a connection/link between people who believe in the BIGBANG THeory and the POSTLIFE!
